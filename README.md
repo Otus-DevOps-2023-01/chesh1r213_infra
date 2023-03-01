@@ -27,3 +27,5 @@ Host someinternalhost
 ssh someinternalhost
 мы подключаемся к someinternalhost
 
+
+
