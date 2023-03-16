@@ -1,0 +1,8 @@
+
+cloud_id        = "123123123"
+token           = "123123123123"
+folder_id       = "123123123123123"
+zone            = "ru-central1-a"
+public_key_path = "~/.h1231/ubuntu.pub"
+image_id        = "fd8o123123gbu8lt7j5vria9fo"
+subnet_id       = "e9busgcgop12312312um2hiasp01"
