@@ -17,9 +17,7 @@ variable "count_instance" {
   description = "count instance"
   default     = 1
 }
-variable "database_url" {
-  description = "MongoDB URL"
-}
-#variable "is_install_service" {
-#  description = ""
-#}
+
+
+
+
