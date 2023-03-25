@@ -28,7 +28,7 @@ connection {
     user  = "ubuntu"
     agent = false
     # путь до приватного ключа
-    private_key = file("~/.ssh/ubuntu")
+    private_key = file("terraform/modules/app/ubuntu")
   }
 
   provisioner "remote-exec" {
@@ -38,12 +38,12 @@ connection {
   }
 
   provisioner "file" {
-    source      = "../modules/app/puma.service"
+    source      = "terraform/modules/app/puma.service"
     destination = "/tmp/puma.service"
   }
 
   provisioner "remote-exec" {
-    script = "../modules/app/deploy.sh"
+    script = "terraform/modules/app/deploy.sh"
   }
 
 }
