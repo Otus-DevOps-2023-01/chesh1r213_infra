@@ -27,7 +27,7 @@ connection {
     user  = "ubuntu"
     agent = false
     # путь до приватного ключа
-    private_key = file("modules/db/ubuntu")
+    private_key = "modules/db/ubuntu"
   }
 
   provisioner "remote-exec" {
