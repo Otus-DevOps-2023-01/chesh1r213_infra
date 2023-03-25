@@ -1,0 +1,6 @@
+{
+    "folder": "b1gktbr7v8hg47vu56vu",
+    "source": "reddit",
+    "secret": "packer/key.json", 
+    "source": "ubuntu-1604-lts"
+}
