@@ -1,0 +1,9 @@
+
+token     = "y0_AgAAAczczxczxcAAiV-6RAATuwQAAAADc8_Bu_N3dDkWeSfSy4Xb93_Nm-YXWrkc"
+cloud_id  = "b1ges86tbese73mejzxczxczxczx7is"
+folder_id = "b1gktbr7v8hg47vu56zxczxczxcvu"
+zone = "ru-central1-a"
+public_key_path = "asdaasda/xzczxczxczxch/ubuntu.pub"
+app_disk_image  = "fd89aoebgs0o0127ouur"      
+db_disk_image = "fd8h22cnb2i327bcvim6"
+subnet_id       = "e9busgcgopum2hiasp01"

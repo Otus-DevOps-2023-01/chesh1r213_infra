@@ -20,8 +20,14 @@ variable public_key_path {
 variable subnet_id {
   # Описание переменной
   description = "sub"
+  
 }
-variable image_id {
-  # Описание переменной
-  description = "image packer"
+
+variable app_disk_image {
+  description = "Disk image for reddit app"
+  default = "fd89aoebgs0o0127ouur"
+}
+variable db_disk_image {
+  description = ""
+  default = "fd8h22cnb2i327bcvim6"
 }
