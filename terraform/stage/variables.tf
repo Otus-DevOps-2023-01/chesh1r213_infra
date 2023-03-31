@@ -31,3 +31,4 @@ variable db_disk_image {
   description = ""
   default = "fd8h22cnb2i327bcvim6"
 }
+
