@@ -28,17 +28,17 @@ connection {
     user  = "ubuntu"
     agent = false
     # путь до приватного ключа
-    private_key = "modules/app/ubuntu"
+    private_key = file("../modules/app/ubuntu")
   }
 
 
   provisioner "file" {
-    source      = "modules/app/puma.service"
+    source      = "../modules/app/puma.service"
     destination = "/tmp/puma.service"
   }
 
   provisioner "remote-exec" {
-    script = "modules/app/deploy.sh"
+    script = "../modules/app/deploy.sh"
   }
 
 }

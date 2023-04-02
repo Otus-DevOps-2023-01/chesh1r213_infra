@@ -6,3 +6,5 @@ public_key_path          = "~/.ssh/appuser.pub"
 private_key              = "~/ssh/appuser"
 subnet_id                = "0000000"
 service_account_key_file = "key.json"
+
+
