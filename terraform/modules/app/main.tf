@@ -29,6 +29,7 @@ connection {
     agent = false
     # путь до приватного ключа
     private_key = file("../modules/app/ubuntu")
+
   }
 
 

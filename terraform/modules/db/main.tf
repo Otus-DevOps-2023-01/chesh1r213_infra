@@ -28,18 +28,9 @@ connection {
     user  = "ubuntu"
     agent = false
     # путь до приватного ключа
-    private_key = file("../modules/db/ubuntu")
+    private_key = file("../modules/app/ubuntu")
   }
 
-  provisioner "remote-exec" {
-    inline = [
-      "sudo apt update",
-      "sleep 20",
-      "sudo apt install mongodb",
-      "sudo sed -i 's/127.0.0.1/127.0.0.1,${yandex_compute_instance.db.network_interface.0.nat_ip_address}/g' /etc/mongodb.conf",
-      "sudo systemctl restart mongodb"
-
-    ]
-  } 
+  
 
 }
