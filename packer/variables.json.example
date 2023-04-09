@@ -1,6 +1,6 @@
 {
 	"folder": "somefolderid",
-	"secret": "somekey.json",
+	"secret": "packer/key.json",
 	"source": "ubuntu-1604-lts",
 	"imgFamily": "reddit-base"
 }
